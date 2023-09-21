@@ -17,7 +17,7 @@ ADDONTITLE = 'Valhalla Wizard'
 BUILDERNAME = 'Valhalla Wizard'
 EXCLUDES = [ADDON_ID, 'repository.reignaar']
 # Text File with build info in it. Please read https://github.com/a4k-openproject/plugin.program.openwizard/wiki/Installing-Builds
-BUILDFILE = 'http://'
+BUILDFILE = 'https://reignaar.github.io/valhalla/repo/repository.reignaar/plugin.program.valhallawizard/resources/text/builds.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -39,7 +39,7 @@ ADVANCEDFILE = 'http://'
 # folder of the wizard then use os.path.join(ART, 'imagename.png')
 # do not place quotes around os.path.join
 # Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
-#           ICONSETTINGS  = 'https://www.yourhost.com/repo/wizard/settings.png'
+#           ICONSETTINGS  = 'http://'
 # Leave as http:// for default icon
 ICONBUILDS = os.path.join(ART, 'builds.png')
 ICONMAINT = os.path.join(ART, 'maintenance.png')
@@ -77,48 +77,7 @@ THEME5 = u'[COLOR {color1}]Current Theme:[/COLOR] [COLOR {color2}]{{}}[/COLOR]'.
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT = 'No'
 # You can add \n to do line breaks
-CONTACT = 'Thank you for choosing OpenWizard.\n\nContact us on Github at http://www.github.com/drinfernoo/plugin.program.openwizard/'
+CONTACT = 'Thank you for choosing Valhalla Wizard. If you dont know how to contact me... Don't'
 # Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON = os.path.join(ART, 'qricon.png')
 CONTACTFANART = 'http://'
-#########################################################
-
-#########################################################
-#        Auto Update For Those With No Repo             #
-#########################################################
-# Enable Auto Update 'Yes' or 'No'
-AUTOUPDATE = 'Yes'
-#########################################################
-
-#########################################################
-#        Auto Install Repo If Not Installed             #
-#########################################################
-# Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL = 'Yes'
-# Addon ID for the repository
-REPOID = 'repository.reignaar'
-# Url to Addons.xml file in your repo folder(this is so we can get the latest version)
-REPOADDONXML = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/addons.xml'
-# Url to folder zip is located in
-REPOZIPURL = 'https://raw.githubusercontent.com/drinfernoo/repository.openwizard/master/zips/repository.openwizard/'
-#########################################################
-
-#########################################################
-#        Notification Window                            #
-#########################################################
-# Enable Notification screen Yes or No
-ENABLE = 'Yes'
-# Url to notification file
-NOTIFICATION = 'http://'
-# Use either 'Text' or 'Image'
-HEADERTYPE = 'Text'
-# Font size of header
-FONTHEADER = 'Font14'
-HEADERMESSAGE = 'Valhalla Wizard'
-# url to image if using Image 424x180
-HEADERIMAGE = 'http://'
-# Font for Notification Window
-FONTSETTINGS = 'Font13'
-# Background for Notification Window
-BACKGROUND = 'http://'
-#########################################################
