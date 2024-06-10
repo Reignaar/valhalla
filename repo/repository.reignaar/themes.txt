@@ -1,0 +1,6 @@
+name="Arctic Horizon 2"
+url="http://your.theme.url/"
+icon="http://"
+fanart="http://"
+adult="no"
+description="A short description of the theme."
